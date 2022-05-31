@@ -27,11 +27,18 @@ public class GUI {
             printRegions(r.getRegionsInRoom());
         }
     }
-    public ArrayList<Region> giveMeRegions() {
-        ArrayList<Region> a = new ArrayList<>();
-        return a;
+    public ArrayList<Region> giveRegions() {
+        ArrayList<Region> regionsToClean = new ArrayList<>();
+        regionsToClean = collectRooms();
+        return regionsToClean;
     }
 
-    public void giveMeRooms() {
+    private ArrayList<Region> collectRooms() {
+        return null;
+    }
+
+    public ArrayList<Room> giveRooms() {
+        ArrayList<Room> roomsToClean = new ArrayList<>();
+        return roomsToClean;
     }
 }

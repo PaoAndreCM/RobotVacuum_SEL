@@ -14,6 +14,7 @@ public class RoomsMode implements ModeController {
     @Override
     public void execute() {
         view.displayRooms(listOfRooms);
-        view.giveMeRooms();
+        roomsToClean = view.giveRooms();
+        model.startRoomsMode(roomsToClean);
     }
 }
