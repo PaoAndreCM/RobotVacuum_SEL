@@ -16,7 +16,7 @@ public class RegionsMode implements ModeController {
     @Override
     public void execute() {
         view.displayRegions(listOfRegions);
-        regionsToClean = view.giveRegions();
+        regionsToClean = view.giveRegions(listOfRegions);
         model.startRegionsMode(regionsToClean);
     }
 }

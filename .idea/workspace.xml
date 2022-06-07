@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="827ce1b2-55be-4371-9934-46144b15047a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegionsMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegionsMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RobotBoundary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RobotBoundary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RoomsMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomsMode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,5 +85,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SEL$Demo.ic" NAME="Demo Coverage Results" MODIFIED="1654277301451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

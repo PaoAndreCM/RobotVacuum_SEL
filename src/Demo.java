@@ -64,21 +64,11 @@ public class Demo {
         // Testing: user selects RegionsMode
         RegionsMode regionsMode = new RegionsMode(boundary, gui, availableRegions);
         regionsMode.execute();
-        // TODO write code to simulate user selecting regions
 
         // Testing: user selects RoomsMode
         RoomsMode roomsMode = new RoomsMode(boundary, gui, availableRooms);
         roomsMode.execute();
-        // TODO write code to simulate user selecting rooms
 
-        // TODO implement giveMeRegions and giveMeRooms in class GUI
-        // they must scan for user input
-        // they return the selected Regions or Rooms to respective controller
-
-        // TODO finish execute statement in RegionsMode and RoomsMode
-        // it receives the regions/rooms and passes them to the RobotBoundary
-        // RobotBoundary prints them as proof that they will get sent to actual robot
-        // Do I need to create another class Job which is serializable?
 
     }
 }
